@@ -2,7 +2,7 @@
 #include "./configFile.hpp"
 // #include "Config.hpp"
 
-MAP ConfigFile::parseMime()
+Config::Config(): _rootPath("/Users/apaghera/Documents/webServ")
 {
 	MAP map;
 	string _whitespace = " \t\n\r\f\v";
